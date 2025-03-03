@@ -9,8 +9,8 @@ body {
 /* Content container */
 .content {
     padding: 20px;
+    width: 800px;
     text-align: center;
-    width: 500px;
     margin: auto;
 }
 
