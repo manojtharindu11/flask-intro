@@ -1,4 +1,76 @@
+/* General styling */
 body {
+    color: black;
     margin: 0;
-    font-family: sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Content container */
+.content {
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+/* Heading */
+h1 {
+    font-weight: bold;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    color: black;
+    font-weight: bold;
+}
+
+/* Links (Update/Delete buttons) */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 3px 5px;
+    display: inline-block;
+}
+
+a:nth-child(1) { /* Update */
+    background-color: lightgreen;
+}
+
+a:last-child { /* Delete */
+    background-color: lightcoral;
+}
+
+/* Form styling */
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: black;
+    color: white;
 }
